@@ -1,0 +1,123 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e6e6e6;
+    color: #6a6a6a;
+}
+a {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.stylebloc {
+    background-color: white;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 6px;
+    padding-top : 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #c2c2c2;
+}
+#headtext {
+    text-align: center;
+}
+#photo {
+    width: 100px;
+    border-radius: 50%;
+    border : 3px solid #c2c2c2;
+}
+#nom {
+    color: #d33d43;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom : 7px;
+}
+#inventeur {
+    font-weight: 600;
+    margin-top: 0px;
+    font-size: 22px;
+}
+#presentation {
+    font-weight: 300;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 150%;
+    word-spacing: 5px;
+}
+.boldtext {
+    font-weight: 800;
+}
+#button {
+    background-color: #d33d43;
+    color: #ffffff;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+#listereseau {
+    list-style-type: none;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.placementicone {
+    display: inline;
+    font-size: 10px
+}
+.icone {
+    transform: scale(3);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 3px;
+    color: #e6e6e6;
+    font-size: 10px;
+}
+.stylereseau {
+    font-size: 10px;
+}
+#favorite {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px
+}
+.titrefilm {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+.resume {
+    font-weight: 300;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 150%;
+    word-spacing: 5px;
+    margin-left: 20px;
+}
+.flex {
+    display:flex;
+    margin-bottom: 20px;
+}
+.image {
+    float:left;
+    height: auto;
+    width: 20%;
+    height: 20%;
+}
+.right {
+    float:right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
